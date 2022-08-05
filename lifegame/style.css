@@ -1,0 +1,19 @@
+
+
+table {
+  border: solid 1px #000000;
+  border-collapse: collapse;
+  margin: 30px 0 0 60px;
+}
+tr {
+  height: 20px;
+}
+td {
+  width: 20px;
+}
+td.alive {
+  background-color: black;
+}
+td.death {
+  background-color: white;
+}

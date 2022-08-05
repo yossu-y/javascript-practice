@@ -13,6 +13,16 @@
     <table class="cells" border="1">
     </table>
     </div>
+
+    <div class="rule">
+      <h4 style="margin-top: 15px;">ルール</h4>
+      <ul>
+        <li>誕生: 死んでいるセルに隣接する生きたセルがちょうど3つあれば、次の世代が誕生する。</li>
+        <li>生存: 生きているセルに隣接する生きたセルが2つか3つならば、次の世代でも生存する。</li>
+        <li>過疎: 生きているセルに隣接する生きたセルが1つ以下ならば、過疎により死滅する。</li>
+        <li>過密: 生きているセルに隣接する生きたセルが4つ以上ならば、過密により死滅する。</li>
+      </ul>
+    </div>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="script.js"></script>
 </body>

@@ -4,7 +4,6 @@
 
 html, body {
   margin: 0;
-  background-color: #008000;
 }
 
 .stage {
@@ -13,7 +12,7 @@ html, body {
   margin: 60px;
   width: 404px;
   height: 404px;
-  text-align: center;
+  background-color: #008000;
 }
 
 .square {
@@ -22,7 +21,8 @@ html, body {
   height: 50px;
   border: solid black;
   border-width: 0 4px 4px 0;
-  cursor: pointer;;
+  cursor: pointer;
+  text-align: center;
 }
 
 .square:nth-child(-n + 8) {

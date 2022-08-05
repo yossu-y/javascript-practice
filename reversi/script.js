@@ -1,5 +1,14 @@
 const stage = document.getElementById("stage");
 const squareTemplate = document.getElementById("square-template");
+const stoneStateList = [];
+
+const onClickSquare = (index) => {
+  // console.log(index);
+  if (stoneStateList [index] !== 0) {
+    alert("ここには置けません");
+    return
+  }
+}
 
 const createSquares = () => {
   for (let i = 0; i < 64; i++) {
@@ -19,10 +28,14 @@ const createSquares = () => {
     }
 
     stone.setAttribute("data-state", defaultState);
+    stone.setAttribute("data-index", i);
+    stoneStateList.push(defaultState);
+
+    square.addEventListener(`click`, () => {
+      onClickSquare(i);
+    })
   }
 };
-
-
 
 window.onload = () => {
   createSquares();

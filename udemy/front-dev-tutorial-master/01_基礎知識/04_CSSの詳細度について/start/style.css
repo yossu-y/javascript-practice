@@ -1,0 +1,16 @@
+.parent {
+  color: blue;
+  font-weight: 600px;
+}
+
+span{
+  color: orange;
+}
+
+.cls {
+  color: purple;
+}
+
+#first {
+  color: magenta;
+}

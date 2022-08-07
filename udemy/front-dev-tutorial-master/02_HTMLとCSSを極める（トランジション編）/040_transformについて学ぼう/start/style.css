@@ -2,6 +2,13 @@
   width: 100px;
   height: 100px;
   margin: 0 auto;
+  margin-top: 50px;
   background-color: orangered;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: cefnter center;
+          transform-origin: cefnter center;
+  -webkit-transform: scale(1.1, 1.5);
+          transform: scale(1.1, 1.5);
 }
 /*# sourceMappingURL=style.css.map */

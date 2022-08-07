@@ -2,5 +2,9 @@
   width: 100px;
   height: 100px;
   margin: 0 auto;
+  margin-top: 50px;
   background-color: orangered;
+  transform: rotate(45deg);
+  transform-origin: cefnter center;
+  transform: scale(1.1, 1.5);
 }

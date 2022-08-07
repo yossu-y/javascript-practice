@@ -17,6 +17,7 @@
 .btn.slide-bg {
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
 .btn.slide-bg span {
